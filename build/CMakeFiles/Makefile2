@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adorukw/AAAPAN/Project/Demo/ZeldaLike
+CMAKE_SOURCE_DIR = /home/adorukw/AAAPAN/Project/ZeldaLike
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build
+CMAKE_BINARY_DIR = /home/adorukw/AAAPAN/Project/ZeldaLike/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -88,14 +88,14 @@ clean: CMakeFiles/copy_compile_db.dir/clean
 CMakeFiles/ZeldaLike.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZeldaLike.dir/build.make CMakeFiles/ZeldaLike.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZeldaLike.dir/build.make CMakeFiles/ZeldaLike.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles --progress-num=1,2,3 "Built target ZeldaLike"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles --progress-num=1,2,3 "Built target ZeldaLike"
 .PHONY : CMakeFiles/ZeldaLike.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ZeldaLike.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZeldaLike.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles 0
 .PHONY : CMakeFiles/ZeldaLike.dir/rule
 
 # Convenience name for target.
@@ -105,7 +105,7 @@ ZeldaLike: CMakeFiles/ZeldaLike.dir/rule
 # codegen rule for target.
 CMakeFiles/ZeldaLike.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZeldaLike.dir/build.make CMakeFiles/ZeldaLike.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target ZeldaLike"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target ZeldaLike"
 .PHONY : CMakeFiles/ZeldaLike.dir/codegen
 
 # clean rule for target.
@@ -120,14 +120,14 @@ CMakeFiles/ZeldaLike.dir/clean:
 CMakeFiles/copy_compile_db.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_compile_db.dir/build.make CMakeFiles/copy_compile_db.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_compile_db.dir/build.make CMakeFiles/copy_compile_db.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles --progress-num= "Built target copy_compile_db"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles --progress-num= "Built target copy_compile_db"
 .PHONY : CMakeFiles/copy_compile_db.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/copy_compile_db.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/copy_compile_db.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles 0
 .PHONY : CMakeFiles/copy_compile_db.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ copy_compile_db: CMakeFiles/copy_compile_db.dir/rule
 # codegen rule for target.
 CMakeFiles/copy_compile_db.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_compile_db.dir/build.make CMakeFiles/copy_compile_db.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles --progress-num= "Finished codegen for target copy_compile_db"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles --progress-num= "Finished codegen for target copy_compile_db"
 .PHONY : CMakeFiles/copy_compile_db.dir/codegen
 
 # clean rule for target.

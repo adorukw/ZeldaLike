@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adorukw/AAAPAN/Project/Demo/ZeldaLike
+CMAKE_SOURCE_DIR = /home/adorukw/AAAPAN/Project/ZeldaLike
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build
+CMAKE_BINARY_DIR = /home/adorukw/AAAPAN/Project/ZeldaLike/build
 
 # Utility rule file for copy_compile_db.
 
@@ -67,7 +67,7 @@ include CMakeFiles/copy_compile_db.dir/compiler_depend.make
 include CMakeFiles/copy_compile_db.dir/progress.make
 
 CMakeFiles/copy_compile_db:
-	/usr/bin/cmake -E copy_if_different /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/compile_commands.json /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/compile_commands.json
+	/usr/bin/cmake -E copy_if_different /home/adorukw/AAAPAN/Project/ZeldaLike/build/compile_commands.json /home/adorukw/AAAPAN/Project/ZeldaLike/compile_commands.json
 
 CMakeFiles/copy_compile_db.dir/codegen:
 .PHONY : CMakeFiles/copy_compile_db.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/copy_compile_db.dir/clean:
 .PHONY : CMakeFiles/copy_compile_db.dir/clean
 
 CMakeFiles/copy_compile_db.dir/depend:
-	cd /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adorukw/AAAPAN/Project/Demo/ZeldaLike /home/adorukw/AAAPAN/Project/Demo/ZeldaLike /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles/copy_compile_db.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/adorukw/AAAPAN/Project/ZeldaLike/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adorukw/AAAPAN/Project/ZeldaLike /home/adorukw/AAAPAN/Project/ZeldaLike /home/adorukw/AAAPAN/Project/ZeldaLike/build /home/adorukw/AAAPAN/Project/ZeldaLike/build /home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles/copy_compile_db.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/copy_compile_db.dir/depend
 

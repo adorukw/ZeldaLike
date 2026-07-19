@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adorukw/AAAPAN/Project/Demo/ZeldaLike
+CMAKE_SOURCE_DIR = /home/adorukw/AAAPAN/Project/ZeldaLike
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build
+CMAKE_BINARY_DIR = /home/adorukw/AAAPAN/Project/ZeldaLike/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ZeldaLike.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/ZeldaLike.dir/codegen:
 .PHONY : CMakeFiles/ZeldaLike.dir/codegen
 
 CMakeFiles/ZeldaLike.dir/src/game.c.o: CMakeFiles/ZeldaLike.dir/flags.make
-CMakeFiles/ZeldaLike.dir/src/game.c.o: /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/game.c
+CMakeFiles/ZeldaLike.dir/src/game.c.o: /home/adorukw/AAAPAN/Project/ZeldaLike/src/game.c
 CMakeFiles/ZeldaLike.dir/src/game.c.o: CMakeFiles/ZeldaLike.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ZeldaLike.dir/src/game.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ZeldaLike.dir/src/game.c.o -MF CMakeFiles/ZeldaLike.dir/src/game.c.o.d -o CMakeFiles/ZeldaLike.dir/src/game.c.o -c /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/game.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ZeldaLike.dir/src/game.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ZeldaLike.dir/src/game.c.o -MF CMakeFiles/ZeldaLike.dir/src/game.c.o.d -o CMakeFiles/ZeldaLike.dir/src/game.c.o -c /home/adorukw/AAAPAN/Project/ZeldaLike/src/game.c
 
 CMakeFiles/ZeldaLike.dir/src/game.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ZeldaLike.dir/src/game.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/game.c > CMakeFiles/ZeldaLike.dir/src/game.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adorukw/AAAPAN/Project/ZeldaLike/src/game.c > CMakeFiles/ZeldaLike.dir/src/game.c.i
 
 CMakeFiles/ZeldaLike.dir/src/game.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ZeldaLike.dir/src/game.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/game.c -o CMakeFiles/ZeldaLike.dir/src/game.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adorukw/AAAPAN/Project/ZeldaLike/src/game.c -o CMakeFiles/ZeldaLike.dir/src/game.c.s
 
 CMakeFiles/ZeldaLike.dir/src/main.c.o: CMakeFiles/ZeldaLike.dir/flags.make
-CMakeFiles/ZeldaLike.dir/src/main.c.o: /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/main.c
+CMakeFiles/ZeldaLike.dir/src/main.c.o: /home/adorukw/AAAPAN/Project/ZeldaLike/src/main.c
 CMakeFiles/ZeldaLike.dir/src/main.c.o: CMakeFiles/ZeldaLike.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ZeldaLike.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ZeldaLike.dir/src/main.c.o -MF CMakeFiles/ZeldaLike.dir/src/main.c.o.d -o CMakeFiles/ZeldaLike.dir/src/main.c.o -c /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ZeldaLike.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ZeldaLike.dir/src/main.c.o -MF CMakeFiles/ZeldaLike.dir/src/main.c.o.d -o CMakeFiles/ZeldaLike.dir/src/main.c.o -c /home/adorukw/AAAPAN/Project/ZeldaLike/src/main.c
 
 CMakeFiles/ZeldaLike.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ZeldaLike.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/main.c > CMakeFiles/ZeldaLike.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adorukw/AAAPAN/Project/ZeldaLike/src/main.c > CMakeFiles/ZeldaLike.dir/src/main.c.i
 
 CMakeFiles/ZeldaLike.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ZeldaLike.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/main.c -o CMakeFiles/ZeldaLike.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adorukw/AAAPAN/Project/ZeldaLike/src/main.c -o CMakeFiles/ZeldaLike.dir/src/main.c.s
 
 # Object files for target ZeldaLike
 ZeldaLike_OBJECTS = \
@@ -117,7 +117,7 @@ ZeldaLike: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
 ZeldaLike: /usr/lib/x86_64-linux-gnu/libSDL2_mixer.so
 ZeldaLike: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so
 ZeldaLike: CMakeFiles/ZeldaLike.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ZeldaLike"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ZeldaLike"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ZeldaLike.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/ZeldaLike.dir/clean:
 .PHONY : CMakeFiles/ZeldaLike.dir/clean
 
 CMakeFiles/ZeldaLike.dir/depend:
-	cd /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adorukw/AAAPAN/Project/Demo/ZeldaLike /home/adorukw/AAAPAN/Project/Demo/ZeldaLike /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles/ZeldaLike.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/adorukw/AAAPAN/Project/ZeldaLike/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adorukw/AAAPAN/Project/ZeldaLike /home/adorukw/AAAPAN/Project/ZeldaLike /home/adorukw/AAAPAN/Project/ZeldaLike/build /home/adorukw/AAAPAN/Project/ZeldaLike/build /home/adorukw/AAAPAN/Project/ZeldaLike/build/CMakeFiles/ZeldaLike.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ZeldaLike.dir/depend
 

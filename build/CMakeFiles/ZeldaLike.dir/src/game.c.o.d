@@ -1,7 +1,7 @@
 CMakeFiles/ZeldaLike.dir/src/game.c.o: \
- /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/game.c \
+ /home/adorukw/AAAPAN/Project/ZeldaLike/src/game.c \
  /usr/include/stdc-predef.h \
- /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/../include/game.h \
+ /home/adorukw/AAAPAN/Project/ZeldaLike/src/../include/game.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
