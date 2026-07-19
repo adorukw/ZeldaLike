@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build",
+  "command": "/usr/bin/cc  -I/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/include -isystem /usr/include/SDL2 -std=gnu99 -Wall -Wextra -g -o CMakeFiles/ZeldaLike.dir/src/game.c.o -c /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/game.c",
+  "file": "/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/game.c",
+  "output": "CMakeFiles/ZeldaLike.dir/src/game.c.o"
+},
+{
+  "directory": "/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build",
+  "command": "/usr/bin/cc  -I/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/include -isystem /usr/include/SDL2 -std=gnu99 -Wall -Wextra -g -o CMakeFiles/ZeldaLike.dir/src/main.c.o -c /home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/main.c",
+  "file": "/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/src/main.c",
+  "output": "CMakeFiles/ZeldaLike.dir/src/main.c.o"
+}
+]

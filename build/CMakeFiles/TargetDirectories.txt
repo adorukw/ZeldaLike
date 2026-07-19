@@ -1,0 +1,4 @@
+/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles/ZeldaLike.dir
+/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles/copy_compile_db.dir
+/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles/edit_cache.dir
+/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build/CMakeFiles/rebuild_cache.dir

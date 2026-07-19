@@ -1,0 +1,9 @@
+[
+  {
+    "label": "CMake构建并运行",
+    "command": "cd \"$ZED_WORKTREE_ROOT\" && mkdir -p build && cd build && cmake .. && make && ./ZeldaLike",
+    "reveal": "always",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+  },
+]
