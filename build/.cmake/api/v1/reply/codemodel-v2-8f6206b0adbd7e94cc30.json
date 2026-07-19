@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ZeldaLike",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ZeldaLike::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZeldaLike-7af265d474b9c63cc745.json",
+					"name" : "ZeldaLike",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_compile_db::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_compile_db-5c4b1e86ccf52f008d47.json",
+					"name" : "copy_compile_db",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/adorukw/AAAPAN/Project/Demo/ZeldaLike/build",
+		"source" : "/home/adorukw/AAAPAN/Project/Demo/ZeldaLike"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
